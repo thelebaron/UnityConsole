@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using System.Text;
-using Wenzil.Console;
 
-namespace Wenzil.Console.Commands
+namespace thelebaron.console.Commands
 { 
     /// <summary>
     /// HELP command. Display the list of available commands or details about a specific command.

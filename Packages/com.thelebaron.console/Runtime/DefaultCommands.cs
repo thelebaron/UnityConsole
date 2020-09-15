@@ -1,7 +1,7 @@
-﻿using UnityEngine;
-using Wenzil.Console.Commands;
+﻿using thelebaron.console.Commands;
+using UnityEngine;
 
-namespace Wenzil.Console
+namespace thelebaron.console
 { 
     public class DefaultCommands : MonoBehaviour
     {

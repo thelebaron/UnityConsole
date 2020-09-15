@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Wenzil.Console.Commands
+namespace thelebaron.console.Commands
 {
     /// <summary>
     /// QUIT command. Quit the application.

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Wenzil.Console
+namespace thelebaron.console
 {
     /// <summary>
     /// An exception thrown when attempting to retrieve a command that does not exist.

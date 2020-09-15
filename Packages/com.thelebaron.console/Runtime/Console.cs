@@ -4,7 +4,7 @@ using UnityEngine;
 
 public delegate void OnConsoleLog(string line);
 
-namespace Wenzil.Console
+namespace thelebaron.console
 {
     /// <summary>
     /// Use Console.Log() anywhere in your code. The Console prefab will display the output.

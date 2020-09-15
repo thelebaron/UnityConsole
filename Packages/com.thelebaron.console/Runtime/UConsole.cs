@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 
+/// <summary>
+/// this is for testing purposes only, remove later
+/// </summary>
+[Obsolete]
 public class UConsole : MonoBehaviour
 {
     

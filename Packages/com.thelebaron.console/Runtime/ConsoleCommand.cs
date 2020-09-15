@@ -1,4 +1,5 @@
-﻿namespace Wenzil.Console 
+﻿
+namespace thelebaron.console
 {
     public delegate string ConsoleCommandCallback(params string[] args);
 

@@ -5,7 +5,7 @@ using System.Collections;
 /// LOAD command. Load the specified scene by name.
 /// </summary>
 
-namespace Wenzil.Console.Commands
+namespace thelebaron.console.Commands
 {
     public static class LoadCommand
     {

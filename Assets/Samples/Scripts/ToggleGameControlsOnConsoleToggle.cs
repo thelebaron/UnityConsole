@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using Wenzil.Console;
+using thelebaron.console;
 
 /// <summary>
 /// A special utility class that revokes user controls whenever the console is open. Very game-specific.

@@ -8,7 +8,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 using EventSystem = UnityEngine.EventSystems.EventSystem;
 
-namespace Wenzil.Console
+namespace thelebaron.console
 {
     /// <summary>
     /// Interface with UI toolkit

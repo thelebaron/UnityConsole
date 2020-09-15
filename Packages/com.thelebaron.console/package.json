@@ -1,0 +1,16 @@
+{
+  "name": "com.thelebaron.console",
+  "description": "ingame console",
+  "version": "0.0.1",
+  "displayName": "console",
+  "dependencies": {
+    "com.unity.inputsystem": "1.0.0",
+    "com.unity.ui": "1.0.0-preview.8"
+  },
+  "type": "tool",
+  "unity": "2020.1",
+  "author": {
+    "name": "thelebaron",
+    "url": "https://www.twitter.com/chrislebaron"
+  }
+}

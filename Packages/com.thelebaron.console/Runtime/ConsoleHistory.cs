@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Wenzil.Console
+namespace thelebaron.console
 {
     /// <summary>
     /// Utility for caching and navigating recently executed console commands. 

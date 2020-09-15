@@ -10,6 +10,15 @@
         "com.unity.addressables": "1.15.1"
       }
     },
+    "com.thelebaron.console": {
+      "version": "file:com.thelebaron.console",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.inputsystem": "1.0.0",
+        "com.unity.ui": "1.0.0-preview.8"
+      }
+    },
     "com.unity.addressables": {
       "version": "1.15.1",
       "depth": 1,

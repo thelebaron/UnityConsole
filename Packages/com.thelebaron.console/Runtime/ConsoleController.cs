@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 
-namespace Wenzil.Console
+namespace thelebaron.console
 {
     /// <summary>
     /// The behavior of the console.
