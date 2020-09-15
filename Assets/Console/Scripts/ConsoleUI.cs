@@ -15,7 +15,7 @@ namespace Wenzil.Console
     /// </summary>
     [DisallowMultipleComponent]
     [RequireComponent(typeof(ConsoleController))]
-    public class ConsoleUI : MonoBehaviour, IScrollHandler
+    public class ConsoleUI : MonoBehaviour
     {
         public event Action<bool> onToggleConsole;
         public event Action<string> onSubmitCommand;
@@ -121,14 +121,7 @@ namespace Wenzil.Console
             }
         }
         
-        
-        /// <summary>
-        /// What to do when the user uses the scrollwheel while hovering the console input.
-        /// </summary>
-        public void OnScroll(PointerEventData eventData)
-        {
-            scrollbar.value += 0.08f * eventData.scrollDelta.y;
-        }
+
 
         /// <summary>
         /// Displays the given message as a new entry in the console output.
@@ -155,10 +148,12 @@ namespace Wenzil.Console
             Invoke(nameof(ScrollListDown), 0.2f);
             //scrollView.ScrollTo(label);
         }
-        
-        void ScrollListDown()
+
+        private void ScrollListDown()
         {
-            //listView.ScrollToItem(consoleHistory.inputHistory.Count);
+            if(!scrollView.Children().Any())
+                return;
+            
             var children = scrollView.Children();
             var child    = children.Last();
             
