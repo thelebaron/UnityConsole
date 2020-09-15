@@ -13,7 +13,6 @@ public class ToggleGameControlsOnConsoleToggle : MonoBehaviour
     void OnEnable()
     {
         console.onToggleConsole += ToggleMouseLook;
-        ToggleMouseLook(console.isConsoleOpen);
     }
 
     void OnDisable()

@@ -45,7 +45,7 @@ namespace Wenzil.Console.Commands
         private static string DisplayCommandDetails(string commandName)
         {
             string formatting =
-@"<b>{0} Command</b>
+    @"<b>{0} Command</b>
     <b>Description:</b> {1}
     <b>Usage:</b> {2}";
 

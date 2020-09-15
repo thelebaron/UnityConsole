@@ -16,8 +16,14 @@ namespace Wenzil.Console
         public static void Log(string line)
         {
             Debug.Log(line);
+            if (OnConsoleLog == null)
+            {
+                //Some reason this doesnt work if this null check is not included
+            }
             if (OnConsoleLog != null)
+            {
                 OnConsoleLog(line);
+            }
         }
 
         public static string ExecuteCommand(string command, params string[] args)

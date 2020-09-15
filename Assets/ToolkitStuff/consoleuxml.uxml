@@ -5,10 +5,8 @@
             <ui:VisualElement name="console-layout-titlebar">
                 <ui:Label text="console" display-tooltip-when-elided="True" name="console-label" style="left: 15px;" />
             </ui:VisualElement>
-            <ui:VisualElement name="console-history" style="height: 90%;" />
-            <ui:VisualElement name="console-input">
-                <ui:TextField picking-mode="Ignore" value="filler text" text="text" />
-            </ui:VisualElement>
+            <ui:ScrollView show-vertical-scroller="true" name="console-history-scrollview" style="height: 90%; color: rgba(255, 255, 255, 255);" />
+            <ui:TextField value="filler text" text="text" name="console-inputfield" multiline="false" readonly="false" picking-mode="Ignore" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
