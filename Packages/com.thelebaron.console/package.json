@@ -5,10 +5,11 @@
   "displayName": "console",
   "dependencies": {
     "com.unity.inputsystem": "1.0.0",
-    "com.unity.ui": "1.0.0-preview.8"
+    "com.unity.ui": "1.0.0-preview.8",
+    "com.unity.ui.builder": "1.0.0-preview.6"
   },
   "type": "tool",
-  "unity": "2020.1",
+  "unity": "2020.2",
   "author": {
     "name": "thelebaron",
     "url": "https://www.twitter.com/chrislebaron"

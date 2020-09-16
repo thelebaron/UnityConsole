@@ -39,8 +39,9 @@ namespace thelebaron.console
         
         private void Awake()
         {
-            uiDocument        = GetComponent<UIDocument>();
-            rootVisualElement = uiDocument.rootVisualElement;
+            uiDocument         = GetComponent<UIDocument>();
+            uiDocument.enabled = true;
+            rootVisualElement  = uiDocument.rootVisualElement;
         
             textField             = rootVisualElement.Q<TextField>("console-inputfield");
             scrollView            = rootVisualElement.Q<ScrollView>("console-history-scrollview");
