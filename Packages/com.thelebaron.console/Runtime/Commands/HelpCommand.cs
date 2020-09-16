@@ -44,9 +44,9 @@ namespace thelebaron.console.Commands
         private static string DisplayCommandDetails(string commandName)
         {
             string formatting =
-    @"<b>{0} Command</b>
-    <b>Description:</b> {1}
-    <b>Usage:</b> {2}";
+                @"<b>{0} Command</b>
+                <b>Description:</b> {1}
+                <b>Usage:</b> {2}";
 
             try
             {

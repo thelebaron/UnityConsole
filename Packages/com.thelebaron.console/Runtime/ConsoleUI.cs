@@ -213,6 +213,9 @@ namespace thelebaron.console
             var stylecolor = new StyleColor();
             stylecolor.value  = Color.cyan;
             label.style.color = stylecolor;
+            var whitespaceStyle = label.style.whiteSpace;
+            whitespaceStyle.value  = WhiteSpace.Normal;
+            label.style.whiteSpace = whitespaceStyle;
             //label.style.height = 12;
             return label;
         }
